@@ -1,0 +1,51 @@
+#topH1 {
+  text-align: center;
+  font-family:monospace;
+}
+
+
+#menuBar {
+  position: absolute;
+  top:10%;
+  left:40px;
+  width:100px;
+}
+
+.menuItem {
+  opacity:1;
+  top:50%;
+  left:50%;
+  width:100px;
+  height:60px;
+  color: black;
+  font-family: monospace;
+}
+
+#chapterSelect {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  font-family: monospace;
+  opacity: 0;
+}
+
+.chapter {
+  margin-top: 30px;
+}
+
+#storyContent {
+  position: absolute;
+  left:600px;
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  height: 80%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  color: white;
+}
